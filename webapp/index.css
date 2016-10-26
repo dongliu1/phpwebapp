@@ -1,0 +1,9 @@
+
+html,body{width:100%;height: 100%}
+
+.contain{width:100%;height: 100%;}
+.head-content{position: absolute;top:0;left:0;right:0;height:5em;width:100%;background:#eef}
+.middle-content{position: absolute;top:5em;left:0;right:0;bottom:6em;width:100%;height: auto;}
+.middle-content>.left-content{position:absolute;top:0;width:12em;height: 100%;background:#ffe;z-index:1}
+.middle-content>.right-content{padding-left:12em;position:relative;height: 100%;background:#fee}
+.footer-content{position: absolute;left:0;bottom:0;right:0;height:6em;background:#eee}
